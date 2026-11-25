@@ -1,0 +1,61 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "长城家充桩",
+        "data": {
+          "phone": "长城账号手机号"
+        },
+        "description": "先用手机号接收长城短信验证码。登录成功后选择要添加的家充桩。"
+      },
+      "sms": {
+        "title": "短信验证",
+        "data": {
+          "code": "短信验证码"
+        }
+      },
+      "reauth_confirm": {
+        "title": "重新登录长城账号",
+        "description": "继续后将发送短信验证码。"
+      },
+      "select_pile": {
+        "title": "选择家充桩",
+        "description": "以下编号来自近期充电记录，可能还有其他家充桩。请确认要添加的桩，或选择手动输入编号。",
+        "data": {
+          "pile_code": "充电桩编号"
+        }
+      },
+      "manual_pile": {
+        "title": "输入充电桩编号",
+        "description": "请输入长城 App 中显示的家充桩编号。",
+        "data": {
+          "pile_code": "充电桩编号"
+        }
+      },
+      "reauth_phone": {
+        "title": "恢复长城账号会话",
+        "description": "请输入有权访问这台家充桩的长城账号手机号。",
+        "data": {
+          "phone": "长城账号手机号"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "暂时无法连接长城云",
+      "invalid_phone": "请输入中国大陆手机号",
+      "invalid_pile": "请输入有效的充电桩编号",
+      "invalid_code": "验证码无效或已过期",
+      "history_unavailable": "暂时无法读取近期充电记录，可以手动输入充电桩编号。",
+      "pile_unavailable": "无法验证这台充电桩，请检查编号、长城账号的使用权限或网络连接。"
+    },
+    "abort": {
+      "already_configured": "这台桩已配置",
+      "no_bootstrap": "没有可导入的会话",
+      "invalid_session": "会话无效，请重新添加集成",
+      "cannot_connect": "暂时无法连接长城云",
+      "verification_unavailable": "长城目前无法发送验证码",
+      "reauth_successful": "已重新登录",
+      "pile_unavailable": "这个账号无法读取原有充电桩。请确认长城 App 中仍有这台桩的使用权限后再试。"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+# Home Assistant 实例数据
+.storage/
+.local-gwm-auth
+secrets.yaml
+home-assistant_v2.db*
+
+# 本地自动化和抓包
+*.nodered.json
+automations.yaml
+flows.json
+flows_cred.json
+*.har
+*.pcap
+*.pcapng
+
+# 本地构建产物
+*.zip
+__pycache__/
+*.py[cod]
+.DS_Store
